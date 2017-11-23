@@ -10,6 +10,10 @@
                   Consulta Clientes <span ></span></h1>
         </header>
 
+  
+      
+    
+
           <script src="../../Scripts/popper.min.js"></script>
      <!-- Librerias para Toastr -->
     <link href="/../Content/toastr.css" rel="stylesheet" />
@@ -18,8 +22,8 @@
 
  <div class= "text-center">
      
-          <span class="btn btn-danger">Selecione-</span>
-          <asp:DropDownList ID="DropFiltro" CssClass="btn-success" runat="server" Height="45px" OnSelectedIndexChanged="DropFiltro_SelectedIndexChanged"> 
+          <span >Selecione-</span>
+          <asp:DropDownList ID="DropFiltro"  runat="server" Height="45px"> 
             
               <asp:ListItem>Todo</asp:ListItem>
               <asp:ListItem>ID</asp:ListItem>
@@ -40,22 +44,22 @@
        
         
            
-          <span class="btn btn-danger">ID/Nombre</span>
-          <asp:TextBox ID="buscaText" runat="server"    class="input-lg" placeholder="ID a buscar" Height="45px" ></asp:TextBox>
-         <asp:Button ID="Button1" runat="server" Text="Buscar" Height="45px" Width="88px" CssClass="btn btn-info" OnClick="Button1_Click"  />
+          <span >ID/Nombre</span>
+          <asp:TextBox ID="buscaText" runat="server"   placeholder="ID a buscar" Height="45px" ></asp:TextBox>
+         <asp:Button ID="Button1" runat="server" Text="Buscar" Height="45px" Width="88px"  />
  
             
   
           <br />
 
   
-         <span class="btn btn-danger">Desde</span>
+         <span>Desde</span>
           
           
-          <asp:TextBox ID="desdeFecha"  class="input-lg" TextMode="Date"  runat="server" Width="212px" Height="45px"></asp:TextBox>
-          <span class="btn btn-danger">Hasta</span>
+          <asp:TextBox ID="desdeFecha"  TextMode="Date"  runat="server" Width="212px" Height="45px"></asp:TextBox>
+          <span >Hasta</span>
             
-            <asp:TextBox ID="hastaFecha"   class="input-lg" TextMode="Date"  runat="server" Height="44px" Width="212px"></asp:TextBox>
+            <asp:TextBox ID="hastaFecha" TextMode="Date"  runat="server" Height="44px" Width="212px"></asp:TextBox>
  
               <br />
             

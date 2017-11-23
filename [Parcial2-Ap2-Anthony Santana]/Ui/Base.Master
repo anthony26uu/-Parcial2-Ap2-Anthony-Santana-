@@ -24,9 +24,7 @@
     
    <nav class="navbar  navbar-light bg-dark">
        
-       <a class="navbar-brand" href="../../Home.aspx">INICIO</a>
-  
-
+    
 
   <div class="collapse navbar-collapse" id="Menu">
     <ul class="navbar-nav mr-auto">
@@ -35,28 +33,32 @@
           <a href="#"  class="navbar-brand" data-toggle="dropdown" role="button" aria-expanded="false">Registros <span class="caret"></span></a>
           
              <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Inicio</a></li>
+            <li><a href="../Registros/RPresupuestos.aspx">Presupuesto</a></li>
       
     
             
           </ul>
         </li>
 
-        <li class="dropdown">
+       <li class="dropdown">
           <a href="#"  class="navbar-brand" data-toggle="dropdown" role="button" aria-expanded="false">Consultas <span class="caret"></span></a>
           
              <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Inicio</a></li>
-           
+          <li><a href="../Consultas/CPresupuesto.aspx">Presupuestos</a></li>
+      
+    
             
           </ul>
         </li>
-    
+           
+           
+            
+       
          <li class="dropdown">
           <a href="#"  class="navbar-brand" data-toggle="dropdown" role="button" aria-expanded="false">Perfil <span class="caret"></span></a>
           
              <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Datos Usuario</a></li>
+            <li><a href="#">Datos</a></li>
             
             
           </ul>
