@@ -45,7 +45,7 @@
 
         <asp:TextBox ID="TextBoxNombre" placeholder="Descripcion"  TextMode= "MultiLine" runat="server" Height="30px" Width="215px"></asp:TextBox>
 
-        <br />
+        &nbsp;<br />
 
         <br />
                 
