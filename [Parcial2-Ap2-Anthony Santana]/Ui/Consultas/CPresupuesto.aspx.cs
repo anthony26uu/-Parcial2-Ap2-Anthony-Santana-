@@ -109,7 +109,7 @@ namespace _Parcial2_Ap2_Anthony_Santana_.Ui.Consultas
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Selecionar(buscaText.Text)
+            Selecionar(int.Parse(buscaText.Text));
         }
     }
 }
