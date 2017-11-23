@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" Inherits="_Parcial2_Ap2_Anthony_Santana_.Ui.Base" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+     <!--Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+
+    
+   <nav class="navbar  navbar-light bg-dark">
+       
+       <a class="navbar-brand" href="../../Home.aspx">INICIO</a>
+  
+
+
+  <div class="collapse navbar-collapse" id="Menu">
+    <ul class="navbar-nav mr-auto">
+        
+       <li class="dropdown">
+          <a href="#"  class="navbar-brand" data-toggle="dropdown" role="button" aria-expanded="false">Registros <span class="caret"></span></a>
+          
+             <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Inicio</a></li>
+      
+    
+            
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#"  class="navbar-brand" data-toggle="dropdown" role="button" aria-expanded="false">Consultas <span class="caret"></span></a>
+          
+             <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Inicio</a></li>
+           
+            
+          </ul>
+        </li>
+    
+         <li class="dropdown">
+          <a href="#"  class="navbar-brand" data-toggle="dropdown" role="button" aria-expanded="false">Perfil <span class="caret"></span></a>
+          
+             <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Datos Usuario</a></li>
+            
+            
+          </ul>
+        </li>
+    
+   
+
+    </ul>
+   
+  </div>
+</nav>
+
+
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
