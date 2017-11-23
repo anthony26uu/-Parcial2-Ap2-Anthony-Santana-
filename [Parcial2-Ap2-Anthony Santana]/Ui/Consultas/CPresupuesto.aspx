@@ -46,7 +46,7 @@
            
           <span >ID/Nombre</span>
           <asp:TextBox ID="buscaText" runat="server"   placeholder="ID a buscar" Height="45px" ></asp:TextBox>
-         <asp:Button ID="Button1" runat="server" Text="Buscar" Height="45px" Width="88px"  />
+         <asp:Button ID="Button1" runat="server" Text="Buscar" Height="45px" Width="88px" OnClick="Button1_Click"  />
  
             
   
